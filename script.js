@@ -16,7 +16,7 @@ $(document).ready(function quiz(){
         $(".question").text("Which American international, and former Everton player, never scored a goal while representing the Toffees?");
         $("img").remove();
         $(".image").prepend('<img style="width:500px;" src="http://worldsoccertalk.com/wp-content/uploads/2014/12/EFC-USA.jpg">');
-        $(".answer-1").append('<input type="button" value="Cody Arnoux" class="answer" style="width: 200px;"/>').fadeIn(0);
+        $(".answer-1").append('<input type="button" value="Cody Arnoux" class="answer" style="width: 200px;"/>');
         $('.answer-1').on('click','.answer',function(){
           correct ++;
           $(".answer-1").fadeOut(200);
@@ -78,7 +78,7 @@ $(document).ready(function quiz(){
         $('.next-1').fadeOut(0);
         questionNum = 2;
         $(".question-number").text('Question:' + questionNum + '/4');
-        $(".question").text("During which year did Everton win their most recent Trophy?");
+        $(".question").text("During which year did Everton win their most recent major Trophy?");
         $(".info").hide();
         $("img").remove();
         $(".image").prepend('<img style="width:500px;" src="http://d2qsy1h1438jt3.cloudfront.net/~/media/83270a5f9fba42e88afe1c800888e865.jpg?bc=white&as=1&w=750">');
@@ -90,7 +90,7 @@ $(document).ready(function quiz(){
           $(".answer-8").fadeOut(200);
           $(".answer").remove();
           setTimeout(function(){
-            $('.info').fadeIn(200).text("Incorrect. Everton's most notable achivement of the '94 season was narrowly avoiding relegation on the final day of the season.");
+            $('.info').fadeIn(200).text("Incorrect. Everton's most notable achivement of the '94 season was narrowly avoiding relegation on the final day.");
           }, 200);
           setTimeout(function(){
             $('.btn').append('<input type="button" value="Next question" class="next-2"/>');
@@ -147,7 +147,7 @@ $(document).ready(function quiz(){
         $('.next-2').fadeOut(0);
         questionNum = 3;
         $(".question-number").text('Question:' + questionNum + '/4');
-        $(".question").text("Which player for both Everton and Arsenal also spent a season playing for Floriana F.C?");
+        $(".question").text("Which player who featured for both Everton and Arsenal also spent a season playing for Floriana F.C?");
         $(".info").hide();
         $("img").remove();
         $(".image").prepend('<img style="width:500px;" src="http://www.mfa.com.mt/dynimage/gallerylarge/11942/image.jpg">');
@@ -174,7 +174,7 @@ $(document).ready(function quiz(){
           $(".answer-12").fadeOut(200);
           $(".answer").remove();
           setTimeout(function(){
-            $('.info').fadeIn(200).text("Correct. Shortly before calling time on his professional careers in 2013, Francis made 2 apperances for the Maltese Premier Leauge side.");
+            $('.info').fadeIn(200).text("Correct. Shortly before calling time on his professional career in 2013, Francis made 2 apperances for the Maltese Premier Leauge side.");
           }, 200);
           setTimeout(function(){
             $('.btn').append('<input type="button" value="Next question" class="next-3"/>');
@@ -215,7 +215,7 @@ $(document).ready(function quiz(){
         $('.next-3').fadeOut(0);
         questionNum = 4;
         $(".question-number").text('Question:' + questionNum + '/4');
-        $(".question").text("What name is commonly given to the lock-up on the Everton crest?");
+        $(".question").text("What name is commonly given to the Lock-Up on the Everton crest?");
         $(".info").hide();
         $("img").remove();
         $(".image").prepend('<img style="width:500px;" src="http://i2.liverpoolecho.co.uk/incoming/article6672557.ece/ALTERNATES/s1227b/at040214flockup-1.jpg">');
